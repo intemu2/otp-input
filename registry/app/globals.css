@@ -1,0 +1,32 @@
+/* Styles for the OTP input product.
+   Only the product's own variables and keyframes live here:
+   nothing targets body or *, and there are no @import or @plugin rules. */
+
+:root {
+  --otp-ring: rgb(9 9 11 / 0.2);
+  --otp-error: #ef4444;
+}
+
+.dark {
+  --otp-ring: rgb(250 250 250 / 0.2);
+  --otp-error: #f87171;
+}
+
+@keyframes otp-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-4px);
+  }
+  40%,
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+.otp-shake {
+  animation: otp-shake 0.4s ease-in-out;
+}

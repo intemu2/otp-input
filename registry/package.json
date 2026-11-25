@@ -1,0 +1,18 @@
+{
+  "description": "Accessible one-time code input for React: one box per digit, auto-advance, backspace and arrow-key navigation, paste support, controlled or uncontrolled, numeric or alphanumeric.",
+  "keywords": [
+    "otp",
+    "one-time-code",
+    "verification-code",
+    "pin-input",
+    "react",
+    "tailwind",
+    "shadcn"
+  ],
+  "license": "MIT",
+  "name": "otp-input",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "version": "0.1.0"
+}
